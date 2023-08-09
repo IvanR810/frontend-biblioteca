@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.contenedor{
+    display: flex;
+    width: 100%;
+}
+.contenedor-1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.contenedor-2>img{
+    height: 99vh;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.card-1{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.card-2{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+.card-2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.boton-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row{
+    padding: 10px 0;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn_u_1{
+    border: 2px solid rgb(111, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(111, 0, 0, .75);
+}
+
+.btn_u_2{
+    border: 2px solid rgb(111, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(111, 0, 0);
+}
+.btn_principal{
+    background: rgba(111, 0, 0, 1);
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn_principal:active{
+    background-color: rgb(70, 0, 0);
+}
+
+
+.input_usuario, .input_contra{
+    width: 300px;
+    padding: 9px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input_usuario::placeholder, .input_contra::placeholder{
+    text-transform: none;
+    text-align: center;
+}

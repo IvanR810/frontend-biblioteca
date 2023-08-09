@@ -1,0 +1,52 @@
+.pdf_view{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.pdf_bar{
+    display: flex;
+    justify-content: space-between;
+    background: #363636;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.pdf_boton_2{
+    display: flex;
+    align-items: center;
+}
+
+.pdf_content{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: #555;
+    color: white;
+    padding: 20px 0;
+}
+
+
+.btn_secundario{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn_secundario:hover{
+    background-color: #ddd;
+}
+
+.pagina_text{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn_guia{
+    margin: 0 10px;
+}
